@@ -1,0 +1,337 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+html,body{
+	height: 100%;
+	max-width: 100%;
+	line-height: 1;
+}
+
+body {
+    background-image:url(img/depositphotos_60127939-stock-illustration-abstract-gray-background.jpg) ;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Alegreya Sans SC', sans-serif;
+
+    font-size: 24px;
+}
+
+.header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+	background-color: rgba(27, 25, 25, 0.548);
+        width: 100%;
+        height: 60px;
+        display: inline-block;
+        font-family: 'IBM Plex Serif';
+        
+      
+}
+
+.header a:hover{
+    text-decoration: underline;
+}
+.header a{
+    font-size: 26px;
+           letter-spacing: 5%;
+           color: #ffffff;
+           line-height: 39px;
+
+}
+
+        .navigation {
+        background-attachment: fixed;
+            width: 100%;
+            max-width: 1300px;
+            height: 45px;
+            margin: 10px auto 0;
+            display: flex;
+            justify-content: space-between;
+    }
+    
+            
+                .conttwo{
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 48px;
+                    line-height: 150%;   
+                    letter-spacing: 0.135em;
+                    color: #434343;
+                
+                }
+.girl{
+               
+	width: 100%;
+}
+.girl_image{
+width: 100vw;
+}
+ .section2, .section3, .section4, .section5{
+    text-align: center;
+    margin: 3%;
+} 
+.conttwo{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.text1{
+font-size: 36px;
+line-height: 150%;
+letter-spacing: 0.135em;
+margin: 2%;
+color: #000000;
+}
+.fotki{
+display: flex;
+}
+.foto1{
+    margin-left: 3%;
+    width: 25%;
+    border-radius: 30%;
+}
+
+.text2 {
+    padding-top: 3%;
+    margin: 1%;
+    font-style: normal;
+    font-weight: normal;
+font-size: 36px;
+line-height: 150%;
+}
+
+.fotka2{
+    display: inline-block;
+
+}
+
+
+.text3{
+    padding-top: 10px;
+    margin:auto 10% auto  10% ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: 0.135em;
+    color: #000000;
+}
+
+
+
+.gallery1{
+    display: flex;
+    text-align: justify;
+    justify-content: space-around;
+
+}
+.gallery1 img{
+    width: 30%;
+}
+
+/**/
+
+.main_hobby{
+    
+    width: 100%;
+    background-attachment: fixed;
+    }
+    
+    .main_title_hobby{
+    padding-top: 50px;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    }
+    
+    .hobby{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    }
+    
+    .info_hobby{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    
+    }
+    
+    .title_hobby{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 2%;
+    font-family: 'Lobster', cursive;
+    }
+    
+    .hobby_text{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    
+    
+    }
+    
+    .img_h1{  width: 415px;
+    transition: 3s;
+    }
+    .img_h{
+        transition: 3s;
+        
+  width: 410px;
+        }
+        .img_h2{
+            transition: 3s;
+            
+  width: 398px;
+
+            }
+    
+            .img_h1:hover{
+              transform: scale(1.2);
+                
+                }
+                .img_h:hover{
+                    transform: scale(1.2);
+                    }
+                    .img_h2:hover{
+                        transform: scale(1.2);
+                        }
+    
+    .btn{
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 15px;
+    margin-top: 3%;
+    border: 3px solid rgb(82, 56, 56);
+    border-radius: 30%;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration:none;
+    box-align: center;
+    padding: 8px 40px ;
+    transition:  .2s linear;
+    margin-bottom: 5%;
+    
+    }
+    
+    .btn:hover {
+        background-color:#8a7474af;
+        color: rgb(0, 0, 0);
+    }
+.p{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    margin: 2%;
+}
+   
+.wrapper {
+    width: 78%;
+   margin: 5%;
+
+
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* background-color:  rgb(203, 253, 214 0.7);*/
+    box-shadow: 0px 10px 10px 10px  rgba(50, 51, 50, 0.432);
+}
+
+/* Слайдер */
+.slick-slider {
+    min-width: 0;
+}
+
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+}
+
+/* Лента слайдов */
+.slick-track {
+    display: flex;
+    align-items: center;
+}
+
+/* Конкретный слайдер */
+.slider {
+    position: relative;
+    padding: 0px 60px;
+    width: 100%;
+}
+
+.slider .slick-arrow {
+    position: absolute;
+    top: 50%;
+    margin: -30px 0px 0px 0px;
+    z-index: 10;
+    font-size: 0;
+    width: 30px;
+    height: 60px;
+}
+
+.slider .slick-arrow.slick-prev {
+    left: 0;
+    background: url('img/sl-arrow_l.svg') 0 0 / 100% no-repeat;
+    border: 0PX;
+}
+
+.slider .slick-arrow.slick-next {
+    right: 0;
+    background: url('img/sl-arrow_r.svg') 0 0 / 100% no-repeat;
+    border: 0PX;
+}
+
+.slider .slick-arrow.slick-disabled {
+    opacity: 0.2;
+}
+
+.slider .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider .slick-dots li {
+    list-style: none;
+    margin: 0px 10px;
+}
+
+.slider .slick-dots button {
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background-color:  #0d0e08;
+    border-radius: 50%;
+}
+
+.slider .slick-dots li.slick-active button {
+    background-color: transparent;
+    border: 1px solid #0d0e08;
+}
+
+.slider__item {
+    margin: 0 10px;
+}
+
+.slider__item img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 400px;
+}
+.imggg{
+    height: 365px;
+    width: 200px;
+}
